@@ -1,14 +1,22 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "return code": 200,
+  "return info": "处理成功",
+  "return result": [
+      {
+          "question": "为什么我的充值没有到账？",
+          "answer": "因为。。。。。。。。。。。。。。。。。。。。"
+      },
+      {
+          "question": "为什么我的充值金额不对？",
+          "answer": "因为。。。。。。。。。。。。。。。。。。。。。。。"
+      },
+      {
+          "question": "充了钱没反应？",
+          "answer": "因为。。。。。。。。。。。。。。。。。。。。"
+      },
+      {
+          "question": "为什么我的账号不见了？",
+          "answer": "因为。。。。。。。。。。。。。。。。。"
+      }
+  ]
 }
